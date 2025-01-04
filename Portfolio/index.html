@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+          <a href="/" class="logo"> <span class="highlighted"> GR</span>EG</a>
+  
+          <div class="nav-links">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#projects" class="nav-item">projects</a>
+            <a href="#contact" class="nav-item">contact</a>
+          </div>
+  
+          <div class="toggler">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="hero container" id="home">
+        <div class="hero-info">
+         <h1 class="title">Greg <span class="highlighted">Garrido</span></h1>
+         <p class="hero-description">Web developer based in Ormoc City.</p>
+         <a href="#services" class="btn hero-btn">Services</a>
+       </div>
+ 
+       <div class="hero-img">
+         <img src="dp.png" alt="Greg Garrido" />
+       </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="about.png" alt="Greg Garrido" />
+    </div>
+
+    <div class="about-info">
+      <h2 class="secondery-title">About Me</h2>
+
+      <p class="description">
+        As a second-year IT student at Eastern Visayas State University (EVSU), 
+        building on the foundation of programming, networking, and database management skills gained in my first year. 
+        My academic journey is deepening with more advanced subjects, preparing my self for future challenges in the IT field.
+      </p>
+
+      <p class="description">
+        My passion for learning goes beyond the classroom. 
+        My actively explore new technologies, participate in online courses, 
+        and engage with tech communities to stay up to date and expand my knowledge in areas like cloud computing and AI.
+      </p>
+
+      <p class="description">
+        Looking ahead, my eager to gain hands-on experience through internships and explore specialized areas like cybersecurity and data science.
+        My commitment to continuous learning and growth positions to become a well-rounded and successful IT professional.
+      </p>
+
+      <a href="#" class="btn btn-secondery">More</a>
+    </div>
+  </section>
+
+  <div class="services container" id="services">
+    <div class="services-header">
+      <h2 class="secondery-title">Services</h2>
+    </div>
+
+    <div class="grid services-grid">
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML</h3>
+        <p class="description">
+            I design well-organized, user-friendly website structures with clear layouts and navigation. 
+            By focusing on intuitive menus, consistent design, and easy-to-find content, 
+            I aim to create a seamless and efficient browsing experience for users.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-python"></i>
+
+        <h3>PYTHON</h3>
+        <p class="description">
+            I use Python to solve problems and build projects, leveraging its simplicity to automate tasks, analyze data, and create applications. By exploring various libraries and frameworks, I continuously improve my skills and expand the scope of my projects.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p class="description">
+            I focus on creating visually appealing website designs by selecting colors, typography, and imagery that enhance the user experience. By ensuring a cohesive layout and clear visual hierarchy, I aim to make the site both attractive and easy to navigate, improving engagement and functionality.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+        <p class="description">
+            I implement interactive features on websites, such as buttons, forms, and animations, to enhance user engagement and create a dynamic experience. Using technologies like JavaScript and jQuery, I design intuitive, responsive elements that make the website more interactive and enjoyable for users.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="projects container" id="projects">
+    <div class="projects-header">
+      <h2 class="secondery-title">Projects</h2>
+
+      <div class="projects-tab">
+        <button class="projects-tab-btn projects-tab-btn-active" id="all">
+          All
+        </button>
+        <button class="projects-tab-btn" id="design">Tkinter</button>
+        <button class="projects-tab-btn" id="seo">Portfolio</button>
+      </div>
+    </div>
+
+    <div class="grid projects-grid">
+      <div class="grid-item projects-item all design">
+        <img src="tkinter.png" alt="" />
+      </div>
+      <div class="grid-item projects-item all seo">
+        <img src="PORT.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container contact" id="contact">
+    <div class="contact-info">
+      <h2 class="secondery-title">Contact</h2>
+      <div class="info-container">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Address</h3>
+            <p>Acle st. Punta Ormoc City</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Email</h3>
+            <p>greggarrido574@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Phone</h3>
+            <p>0951 022 6510</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button class="btn submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+      <footer class="footer">
+    <p>&copy; 2024 Greg Garrido All Right Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
